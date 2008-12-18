@@ -44,6 +44,7 @@ decoding support for your application.
 %package -n %libname
 Group: System/Libraries
 Summary: Libraries for %name
+Requires: %name = %version
 
 %description -n %libname
 This package contains shared libraries for %name.
