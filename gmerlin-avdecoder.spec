@@ -39,7 +39,7 @@ decoding support for your application.
 #--------------------------------------------------------------------
 
 %define major 1
-%define libname %mklibname %name %major
+%define libname %mklibname gmerlin_avdec %major
 
 %package -n %libname
 Group: System/Libraries
@@ -54,7 +54,7 @@ This package contains shared libraries for %name.
 
 #--------------------------------------------------------------------
 
-%define develname %mklibname -d %name
+%define develname %mklibname -d gmerlin_avdec
 
 %package -n %develname
 Group: Development/Other
