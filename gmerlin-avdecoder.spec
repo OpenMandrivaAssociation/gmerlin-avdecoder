@@ -1,13 +1,12 @@
 Name: gmerlin-avdecoder
 Summary: A multimedia decoding library
-Version: 1.0.0
+Version: 1.0.1
 Release: %mkrel 1
 Url: http://gmerlin.sourceforge.net/
 License: LGPLv2+
 Group: Video
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 Source0: http://downloads.sourceforge.net/gmerlin/%name-%version.tar.gz
-Patch0: gmerlin-avdecoder-1.0.0-fix-str-fmt.patch
 BuildRequires: gavl-devel >= 1.1.0
 BuildRequires: gmerlin-devel >= 0.4.0
 BuildRequires: gmerlin >= 0.4.0
@@ -75,7 +74,6 @@ This package contains development files for %name.
 
 %prep
 %setup -q
-%patch0 -p0
 
 %build
 %configure2_5x --without-doxygen
