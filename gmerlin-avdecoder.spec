@@ -2,7 +2,7 @@ Name: gmerlin-avdecoder
 Summary: A multimedia decoding library
 Version: 1.1.0
 Release: %mkrel 3
-Url: http://gmerlin.sourceforge.net/
+Url: https://gmerlin.sourceforge.net/
 License: LGPLv2+
 Group: Video
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
